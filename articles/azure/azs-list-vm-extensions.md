@@ -20,7 +20,7 @@ This document explains how to list VM extensions in Azure Stack with PowerShell.
 
 ## Prerequisites
 
-Ensure your Powershell environment is setup as detailed in <https://docs.ukcloud.com/articles/azure/azs-how-configure-powershell-users.html>
+Ensure your Powershell environment is set up as detailed in *<https://docs.ukcloud.com/articles/azure/azs-how-configure-powershell-users.html>*
 
 ## Instructions
 
@@ -34,8 +34,12 @@ Login-AzureRmAccount -EnvironmentName "AzureStackUser"
 Get-AzureRmVmImagePublisher -Location frn00006 | `
   Get-AzureRmVMExtensionImageType | `
   Get-AzureRmVMExtensionImage | `
+<<<<<<< HEAD
   Select Type, Version | `
   Format-Table -Property * -AutoSize
+=======
+  Format-Table -Property Type, Version -AutoSize
+>>>>>>> 7b6f0c409a1571aaa446dcdd9612b127054532f1
 ```
 
 This will produce a table similar to the following:

@@ -15,7 +15,7 @@ toc_mdlink: vmw-ref-oversized-vms.md
 
 # Oversized VMs on the UKCloud platform
 
-Although UKCloud recommend a maximum permitted configuration of 8vCPU and 96GB RAM for Virtual machines (VMs), a small number of customers have been creating customised VM's that exceed this configuration. We understand that customers may have been doing this in an effort to increase VM performance, and in the most extreme scenarios customers have assigned more vCPU and Memory than is physically available on the host.
+Although UKCloud recommend a maximum permitted configuration of 12vCPU and 128GB RAM for Virtual machines (VMs), a small number of customers have been creating customised VM's that exceed this configuration. We understand that customers may have been doing this in an effort to increase VM performance, and in the most extreme scenarios customers have assigned more vCPU and Memory than is physically available on the host.
 
 Unfortunately, this approach does not necessarily increase VM performance and in many circumstances this has the opposite effect.
 
